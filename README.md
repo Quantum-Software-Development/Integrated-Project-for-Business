@@ -1,6 +1,17 @@
 <br>
 
+# Linear Regression and Data Scaling Analysis
 ### Integrated Project for [Business]() - 3rd Semester PUC-SP - Graduation in Humanistic AI and Data Science
+
+<br><br>
+
+## Project Overview
+
+This project demonstrates a complete machine learning workflow for price prediction using:
+- **Stepwise Regression** for feature selection  
+- Advanced statistical analysis (ANOVA, R² metrics)  
+- Full model diagnostics  
+- Interactive visualization integration  
 
 <br><br><br>
 
@@ -11,6 +22,8 @@
 ### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
 
 <br><br><br>
+
+
 
 # Table of Contents  
 1. [What is Data Normalization/Scaling?](#what-is-data-normalizationscaling)  
@@ -861,7 +874,7 @@ The coefficient for `GTV` (1.3547) tells us that for each unit increase in `GTV`
 
 By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the regression model now focuses on the variables that have a stronger statistical relationship with the dependent variable `Vendas`.
 
-
+-->
 
 
 <br><br>
