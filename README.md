@@ -1,7 +1,9 @@
 <br>
 
-# Linear Regression and Data Scaling Analysis
-### Integrated Project for [Business]() - 3rd Semester PUC-SP - Graduation in Humanistic AI and Data Science
+
+# <p align="center"> Integrated Project for [Business]() - 3rd Semester PUC-SP - Graduation in Humanistic AI and Data Science
+
+### <p align="center"> I Linear Regression and Data Scaling Analysis
 
 <br><br>
 
