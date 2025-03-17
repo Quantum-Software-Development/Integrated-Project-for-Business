@@ -9,26 +9,6 @@
 </div>
 
 
-
-
-
-
-
-
-<br>
-
-## [Part I]() - Linear Regression and Data Scaling Analysis
-
-<br><br>
-
-## Project Overview
-
-This project demonstrates a complete machine learning workflow for price prediction using:
-- **Stepwise Regression** for feature selection  
-- Advanced statistical analysis (ANOVA, R² metrics)  
-- Full model diagnostics  
-- Interactive visualization integration  
-
 <br><br><br>
 
 <h2 align="center">  $$\Huge {\textbf{\color{DodgerBlue} GOOD DECISIONS = GOOD RESULTS}}$$ 
@@ -39,6 +19,21 @@ This project demonstrates a complete machine learning workflow for price predict
 
 <br><br><br>
 
+
+
+## [Part I]() - Linear Regression and Data Scaling Analysis
+
+<br>
+
+## Project Overview
+
+This project demonstrates a complete machine learning workflow for price prediction using:
+- **Stepwise Regression** for feature selection  
+- Advanced statistical analysis (ANOVA, R² metrics)  
+- Full model diagnostics  
+- Interactive visualization integration  
+
+<br>
 
 
 # Table of Contents  
