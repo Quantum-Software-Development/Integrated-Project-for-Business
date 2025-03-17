@@ -12,6 +12,37 @@
 
 <br><br><br>
 
+# Table of Contents  
+1. [What is Data Normalization/Scaling?](#what-is-data-normalizationscaling)  
+2. [Common Scaling Methods](#common-scaling-methods)  
+3. [Why is this Important in Machine Learning?](#why-is-this-important-in-machine-learning)  
+4. [Practical Example](#practical-example)  
+5. [Code Example (Python)](#code-example-python)  
+6. [Linear Regression: Price Prediction Case Study 📈](#linear-regression-price-prediction-case-study-)  
+   - [I. Use Case Implementation](#i-use-case-implementation)  
+   - [Dataset Description](#dataset-description)  
+   - [II. Methodology](#ii-methodology)  
+   - [Stepwise Regression Implementation](#stepwise-regression-implementation)  
+   - [III. Statistical Analysis](#iii-statistical-analysis)  
+   - [Key Metrics Table](#key-metrics-table)  
+   - [Correlation Matrix](#correlation-matrix)  
+   - [IV. Full Implementation Code](#iv-full-implementation-code)  
+   - [Model Training & Evaluation](#model-training--evaluation)  
+   - [ANOVA Results](#anova-results)  
+   - [V. Visualization](#v-visualization)  
+   - [Actual vs Predicted Prices](#actual-vs-predicted-prices)  
+   - [VI. How to Run](#vi-how-to-run)  
+7. [Linear Regression Analysis Report 📊](#linear-regression-analysis-report)  
+   - [Dataset Overview](#dataset-overview)  
+   - [Key Formulas](#key-formulas)  
+   - [Statistical Results](#statistical-results)  
+   - [Code Implementation](#code-implementation)  
+   - [Stepwise Regression](#stepwise-regression)  
+
+
+<br><br>
+
+
 ## [Standardization of a Range of Values]()
 
 It's describes the process of scaling or normalizing data within a specific range, typically to a standardized scale, for example, from 0 to 1. This is a common technique in data analysis and machine learning.
