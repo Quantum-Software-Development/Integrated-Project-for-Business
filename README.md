@@ -14,7 +14,7 @@
 
 ## [Standardization of a Range of Values]()
 
-t describes the process of scaling or normalizing data within a specific range, typically to a standardized scale, for example, from 0 to 1. This is a common technique in data analysis and machine learning.
+It's describes the process of scaling or normalizing data within a specific range, typically to a standardized scale, for example, from 0 to 1. This is a common technique in data analysis and machine learning.
 
 <br>
 
