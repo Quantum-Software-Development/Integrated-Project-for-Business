@@ -1,11 +1,18 @@
 <br>
 
 
-# <p align="center"> Integrated Project for [Business]() - 3rd Semester PUC-SP - Graduation in Humanistic AI and Data Science
+<p align="center">
+  <strong style="font-size:1.8em;">🌟 Integrated Business Project – 3rd Semester at PUC-SP: Bachelor's in Humanistic AI & Data Science</strong>
+  <br>
+  <em style="font-size:1.2em;">Under the guidance of Professor Dr. Eric Baconni, Coordinator of the Bachelor's Program in Humanistic AI & Data Science at PUC-SP.</em>
+</p>
+
+
+
 
 <br>
 
-## I - Linear Regression and Data Scaling Analysis
+## [Part I]() - Linear Regression and Data Scaling Analysis
 
 <br><br>
 
