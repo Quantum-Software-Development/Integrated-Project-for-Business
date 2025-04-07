@@ -913,6 +913,16 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 ## IV- Discriminant Analysis
 
+#### [Click here]() to access Theoretical and Pratical Material.
+
+#### [Click here]() to access the Dataset
+
+#### [Click here]() and access  Discriminant  Basic Code
+
+#### [Click here]() and access  Discriminant  Exercices + Codes and Datasets
+
+
+
 
 
 
