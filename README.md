@@ -894,7 +894,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/9cfecdfdd9d43e93089870e78216f1dc629702c0/class_4-Logistic%20Regression/Logistic%20Regression.pdf) to access Theoretical and Pratical Material.
 
-#### [Click here]() and access  Logistic Refression Basic Code
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/3009ac9b2abbb0eddf3ee8a28d539f62e2eb33cf/class_4-Logistic%20Regression/Regressao_Logistica%20(1).ipynb) and access  Logistic Refression Basic Code
 
 #### [Click here]() and access  Logistic Refression Exercices and Codes
 
