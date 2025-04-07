@@ -915,7 +915,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/5ab10f415d91d5165316facc007f06580ee3e4b7/class_6-Discriminant%20Analysis/Discriminant%20Analysis.pdf) to access Theoretical and Pratical Material.
 
-#### [Click here]() to access the Dataset
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/feaa91502841c85ad30ae891aa1f4ebd25927b20/class_6-Discriminant%20Analysis/Discriminant.xlsx) to access the Dataset
 
 #### [Click here]() and access  Discriminant  Basic Code
 
