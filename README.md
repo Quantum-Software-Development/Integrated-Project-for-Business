@@ -890,7 +890,14 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## III- Logistic regression
+## III- Logistic Regression
+
+#### [Click here]() to access Theoretical and Pratical Material.
+
+#### [Click here]() and access  Logistic Refression Basic Code
+
+#### [Click here]() and access  Logistic Refression Exercices and Codes
+
 
 
 
