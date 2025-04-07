@@ -921,7 +921,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 #### [Click here]() and access  Discriminant  Exercices + Codes and Datasets
 
-#### [Click here](https://github.com/FabianaCampanari/Iris-DataAnalysis-Seaborn-) and acess Isis Repository
+#### [Click here](https://github.com/FabianaCampanari/Iris-DataAnalysis-Seaborn-) and acess Iris Repository
 
 
 
