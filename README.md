@@ -406,7 +406,9 @@ Both techniques were applied (given dataset)  to the [columns n_filhos](), [sala
 
 For example, if we're analyzing the correlation between the area of a house and its price, a Pearson value close to 1 would indicate that as the area increases, the price also tends to increase.
 
-## Simple Linear Regression
+<br>
+
+## I- Simple Linear Regression
 
 **Simple Linear Regression** is a statistical model that describes the relationship between a dependent variable (response) and an independent variable (predictor). The model is represented by the formula:
 
@@ -541,9 +543,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ```
   
-<br><br>
+<br>
 
-### II - Multiple Linear Regression with 4 variable 
+## II - Multiple Linear Regression with 4 variable 
 
 - Vendas as the dependent variable (Y)
   
@@ -885,7 +887,24 @@ The coefficient for `GTV` (1.3547) tells us that for each unit increase in `GTV`
 
 By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the regression model now focuses on the variables that have a stronger statistical relationship with the dependent variable `Vendas`.
 
--->
+
+<br>
+
+## III- Logistic regression
+
+
+
+
+
+
+
+<br>
+
+## IV- Discriminant Analysis
+
+
+
+
 
 
 <br><br>
