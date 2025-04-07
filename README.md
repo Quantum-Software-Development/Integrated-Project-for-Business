@@ -408,7 +408,7 @@ For example, if we're analyzing the correlation between the area of a house and 
 
 <br>
 
-## I- Simple Linear Regression
+## I- [Simple Linear Regression]()
 
 **Simple Linear Regression** is a statistical model that describes the relationship between a dependent variable (response) and an independent variable (predictor). The model is represented by the formula:
 
@@ -435,7 +435,7 @@ Simple linear regression is widely used for predicting a value based on a linear
 Simple linear regression is a great starting point for predictive problems where a linear relationship between variables is expected.
 
 
-### I- Example Code - [Correlation Vendas Gjornal]()
+### 1- Example Code - [Correlation Vendas Gjornal]()
 
 ### Use This Dataset - [BD Gerais.xlsx](https://github.com/Quantum-Software-Development/Integrated_Project-Business/blob/4331d9227118d2025a6c167a3cefd99bf7404939/class_2-Linear%20Regression/BD%20Gerais.xlsx)
 
@@ -532,7 +532,7 @@ plt.show()
 
 #
 
-### II- Example Code - [Correlation Vendas -  GTV]()
+### 2- Example Code - [Correlation Vendas -  GTV]()
 
 ### Use This Dataset - [BD Gerais.xlsx](https://github.com/Quantum-Software-Development/Integrated_Project-Business/blob/4331d9227118d2025a6c167a3cefd99bf7404939/class_2-Linear%20Regression/BD%20Gerais.xlsx)
 
@@ -545,7 +545,7 @@ import matplotlib.pyplot as plt
   
 <br>
 
-## II - Multiple Linear Regression with 4 variable 
+## II - [Multiple Linear Regression with 4 variable]() 
 
 - Vendas as the dependent variable (Y)
   
@@ -890,7 +890,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## III- Logistic Regression
+## III- [Logistic Regression]()
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/9cfecdfdd9d43e93089870e78216f1dc629702c0/class_4-Logistic%20Regression/Logistic%20Regression.pdf) to access Theoretical and Pratical Material.
 
@@ -911,7 +911,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## IV- Discriminant Analysis
+## IV- [Discriminant Analysis]()
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/5ab10f415d91d5165316facc007f06580ee3e4b7/class_6-Discriminant%20Analysis/Discriminant%20Analysis.pdf) to access Theoretical and Pratical Material.
 
