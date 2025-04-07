@@ -898,6 +898,8 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 
 
+
+
 <br>
 
 ## IV- Discriminant Analysis
