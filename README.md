@@ -892,7 +892,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 ## III- Logistic Regression
 
-#### [Click here]() to access Theoretical and Pratical Material.
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/9cfecdfdd9d43e93089870e78216f1dc629702c0/class_4-Logistic%20Regression/Logistic%20Regression.pdf) to access Theoretical and Pratical Material.
 
 #### [Click here]() and access  Logistic Refression Basic Code
 
