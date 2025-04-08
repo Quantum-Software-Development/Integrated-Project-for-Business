@@ -33,7 +33,7 @@ This project demonstrates a complete machine learning workflow for price predict
 - Full model diagnostics  
 - Interactive visualization integration
 
-➢➣ [Get access]() to all the projects + dataset developed in this discipline.
+➢➣ [Get access](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/c751c1eb34ccfe30e451954c9a5ae5ea3f52e70d/Projects) to all the projects + dataset developed in this discipline.
 
 <br>
 
