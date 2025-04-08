@@ -31,7 +31,9 @@ This project demonstrates a complete machine learning workflow for price predict
 - **Stepwise Regression** for feature selection  
 - Advanced statistical analysis (ANOVA, R² metrics)  
 - Full model diagnostics  
-- Interactive visualization integration  
+- Interactive visualization integration
+
+➢➣ [Get access]() to all the projects + dataset developed in this discipline.
 
 <br>
 
