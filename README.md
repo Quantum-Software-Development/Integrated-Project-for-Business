@@ -931,7 +931,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## V - [Lasso Regression]()
+## V - [Ridge and Lasso Regression](): Complete Overview with Definitions, Regularization Concepts, and Implementation Steps
 
 <br>
 
@@ -943,70 +943,72 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-### [Definition](():
+## 1. [Definitions]():
 
-**Lasso regression** (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) is a linear regression technique that applies **L1 regularization** by adding a penalty term equal to the sum of the absolute values of the coefficients to the ordinary least squares (OLS) cost function[1][5]. This method performs **variable selection** and **regularization** simultaneously, shrinking less important coefficients to zero to reduce overfitting and enhance model interpretability[2][6].
-
-
-### [Key Components]():
-
-- **Objective Function**: Minimizes the residual sum of squares (RSS) subject to a constraint on the sum of absolute coefficients:
-  
-### $\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)\$
-  
-  [Where]():
-  
-### $\lambda$$ controls the regularization strength.
-
-
-- **Feature Selection**: The L1 penalty forces some coefficients to be exactly zero, effectively excluding irrelevant variables from the model.
-
-
-- **Regularization Parameter ($\lambda$)**:  
-  - Higher values of $\lambda$ increase shrinkage, eliminating more features[1].  
-  - Optimized via cross-validation to balance the bias-variance tradeoff[5][6].
-
- 
-### [Comparison with Ridge Regression]():
-
-<br>
-
-| **Aspect**          | **Lasso (L1)**                        | **Ridge (L2)**                       |
-|---------------------|-------------------------------------|------------------------------------|
-| **Penalty Term**     | $$\lambda \sum |w_i|$$               | $$\lambda \sum w_i^2$$              |
-| **Feature Selection**| Yes (sparse models)                  | No (retains all features)           |
-| **Use Case**         | High-dimensional data with sparse signals | Correlated predictors, small coefficients |
-| **Bias**             | Introduces bias for large coefficients | More uniform shrinkage[2][6]       |
-
-<br>
-
-### [Applications]():
+### Lasso Regression (L1 Regularization)
+Lasso regression (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) is a linear regression technique that applies **L1 regularization** by adding a penalty term equal to the sum of the absolute values of the coefficients to the ordinary least squares (OLS) cost function. This method performs **variable selection** and **regularization** simultaneously, shrinking less important coefficients to zero to reduce overfitting and enhance model interpretability.
 
 Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection.
 
-### [Regularization in Machine Learning][(): 
+**Objective Function:**
 
-Regularization is a set of techniques used to prevent **overfitting** and handle **multicollinearity** in predictive machine learning models. It works by adding a **penalty term** to the model’s loss function, which discourages complex models with large coefficients and helps improve generalization to new data.
+$\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)\$
 
+Where $\(\lambda\)$ controls the regularization strength.
 
-## VI- [Main Regularization Techniques]()(:
+### Ridge Regression (L2 Regularization)
+Ridge regression applies **L2 regularization** by adding a penalty term equal to the sum of the squared coefficients to the OLS cost function. It shrinks coefficients toward zero but does not eliminate them, making it effective for handling multicollinearity and improving model stability.
 
-- **L1 Regularization (Lasso):**  
-  Adds a penalty proportional to the sum of the absolute values of the coefficients:
-  
-  $\text{Loss} = \text{SSE} + \lambda \sum_i |w_i| \$
-  
-  Encourages sparsity by shrinking some coefficients exactly to zero, thus performing feature selection.
+**Objective Function:**
 
-- **L2 Regularization (Ridge):**  
-  Adds a penalty proportional to the sum of squared coefficients:
-  
-  $\text{Loss} = \text{SSE} + \lambda \sum_i w_i^2\$
-  
-  Shrinks coefficients towards zero but does not eliminate them, improving model stability.
+$\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_2^2 \right)\#
 
-```
-```
+[Where](): $\(\lambda\)$ controls the strength of regularization.
+
+<br>
+
+## 2. Regularization to Prevent Overfitting
+
+Regularization techniques add a **penalty term** to the loss function to discourage complex models that overfit the training data by fitting noise instead of underlying patterns. The penalty term controls the magnitude of the coefficients, reducing variance at the cost of introducing some bias (bias-variance tradeoff). This leads to better generalization on unseen data.
+
+- **L1 penalty (Lasso)** encourages sparsity by forcing some coefficients to be exactly zero, effectively performing feature selection.
+- **L2 penalty (Ridge)** shrinks coefficients uniformly but keeps all features, improving stability especially when predictors are correlated.
+
+The regularization parameter \(\lambda\) controls the strength of the penalty:  
+- Higher \(\lambda\) means stronger shrinkage and simpler models.  
+- Optimal \(\lambda\) is usually found via cross-validation.
+
+<br>
+
+## 3. Penalization Terms Summary
+
+| Regularization Type | Penalization Term                  | Effect                         |
+|--------------------|----------------------------------|--------------------------------|
+| **L1 (Lasso)**     | \(\lambda \sum_i |w_i|\)          | Shrinks some coefficients to zero (feature selection) |
+| **L2 (Ridge)**     | \(\lambda \sum_i w_i^2\)          | Shrinks coefficients towards zero without elimination |
+| **Elastic Net**    | \(\lambda_1 \sum_i |w_i| + \lambda_2 \sum_i w_i^2\) | Combines L1 and L2 penalties for feature selection and stability |
+
+<br>
+
+## 4. Comparison Between Lasso and Ridge
+
+| Aspect               | Lasso (L1)                              | Ridge (L2)                            |
+|----------------------|---------------------------------------|-------------------------------------|
+| Penalty Term         | \(\lambda \sum |w_i|\)                 | \(\lambda \sum w_i^2\)               |
+| Feature Selection    | Yes (sparse models, some coefficients exactly zero) | No (all coefficients shrunk but retained) |
+| Handles Multicollinearity | Partially                          | Yes (stabilizes correlated predictors) |
+| Use Cases            | High-dimensional data with sparse signals | Correlated predictors, small sample sizes |
+| Coefficients Impact  | Some coefficients become zero         | Coefficients shrink but remain nonzero |
+
+<br>
+
+### 5. How to Execute Ridge Regression: Step-by-Step
+
+### Step 1: Data Preparation
+- **Standardize features** to zero mean and unit variance because Ridge regression is sensitive to feature scales.  
+- **Split dataset** into training and testing sets (e.g., 80% train, 20% test).
+
+### Step 2: Model Training and Hyperparameter Tuning (Python Example)
 
 
 
