@@ -982,7 +982,11 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 ### [Applications]():
 
-Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection[6].
+Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection.
+
+### [Regularization in Machine Learning: 
+
+Regularization is a set of techniques used to prevent **overfitting** and handle **multicollinearity** in predictive machine learning models[1][3]. It works by adding a **penalty term** to the model’s loss function, which discourages complex models with large coefficients and helps improve generalization to new data.
 
 
 
