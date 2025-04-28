@@ -939,6 +939,16 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 **Lasso regression** (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) é uma técnica de regressão linear que aplica **regularização L1** adicionando um termo de penalidade igual à soma dos valores absolutos dos coeficientes à função de custo dos mínimos quadrados ordinários (OLS)[1][5]. Esse método realiza **seleção de variáveis** e **regularização** simultaneamente, reduzindo coeficientes menos importantes a zero para diminuir overfitting e melhorar a interpretabilidade do modelo[2][6].
 
+## Key Components
+
+- **Objective Function**: Minimiza a soma dos resíduos ao quadrado (RSS) sujeita a uma restrição na soma dos coeficientes absolutos:  
+  $$
+  \arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)
+  $$
+  onde $$\lambda$$ controla a força da regularização[1][5].
+
+
+
 
 
 
