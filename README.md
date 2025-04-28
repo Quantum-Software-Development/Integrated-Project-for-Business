@@ -970,8 +970,9 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 | **Use Case**         | High-dimensional data with sparse signals | Correlated predictors, small coefficients |
 | **Bias**             | Introduces bias for large coefficients | More uniform shrinkage[2][6]       |
 
+<br>
 
-## [Applications](():
+### [Applications]():
 
 Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection[6].
 
