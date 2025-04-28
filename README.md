@@ -937,23 +937,43 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 ### [Definition]:
 
-**Lasso regression** (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) é uma técnica de regressão linear que aplica **regularização L1** adicionando um termo de penalidade igual à soma dos valores absolutos dos coeficientes à função de custo dos mínimos quadrados ordinários (OLS)[1][5]. Esse método realiza **seleção de variáveis** e **regularização** simultaneamente, reduzindo coeficientes menos importantes a zero para diminuir overfitting e melhorar a interpretabilidade do modelo[2][6].
+**Lasso regression** (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) is a linear regression technique that applies **L1 regularization** by adding a penalty term equal to the sum of the absolute values of the coefficients to the ordinary least squares (OLS) cost function[1][5]. This method performs **variable selection** and **regularization** simultaneously, shrinking less important coefficients to zero to reduce overfitting and enhance model interpretability[2][6].
+
 
 ## [Key Components]():
 
-- **Objective Function**: Minimiza a soma dos resíduos ao quadrado (RSS) sujeita a uma restrição na soma dos coeficientes absolutos:  
+### [Key Components]():
+
+- **Objective Function**: Minimizes the residual sum of squares (RSS) subject to a constraint on the sum of absolute coefficients:  
   $$
   \arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)
   $$
-  onde $$\lambda$$ controla a força da regularização[1][5].
-  
+  where $$\lambda$$ controls the regularization strength[1][5].
 
-- **Feature Selection**: A penalização L1 força alguns coeficientes a serem exatamente zero, excluindo efetivamente variáveis irrelevantes do modelo[3][6].
+
+- **Feature Selection**: The L1 penalty forces some coefficients to be exactly zero, effectively excluding irrelevant variables from the model[3][6].
+
 
 - **Regularization Parameter ($\lambda$)**:  
-  - Valores maiores de $\lambda$ aumentam o encolhimento, eliminando mais características[1].  
-  - Otimizado via validação cruzada para equilibrar o tradeoff viés-variância[5][6].
+  - Higher values of $\lambda$ increase shrinkage, eliminating more features[1].  
+  - Optimized via cross-validation to balance the bias-variance tradeoff[5][6].
 
+ 
+### [Comparison with Ridge Regression]():
+
+<br>
+
+| **Aspect**          | **Lasso (L1)**                        | **Ridge (L2)**                       |
+|---------------------|-------------------------------------|------------------------------------|
+| **Penalty Term**     | $$\lambda \sum |w_i|$$               | $$\lambda \sum w_i^2$$              |
+| **Feature Selection**| Yes (sparse models)                  | No (retains all features)           |
+| **Use Case**         | High-dimensional data with sparse signals | Correlated predictors, small coefficients |
+| **Bias**             | Introduces bias for large coefficients | More uniform shrinkage[2][6]       |
+
+
+## [](():
+
+Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection[6].
 
 
 ### [Comparison with Ridge Regression]():
