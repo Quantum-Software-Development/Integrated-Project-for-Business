@@ -939,7 +939,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 **Lasso regression** (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) é uma técnica de regressão linear que aplica **regularização L1** adicionando um termo de penalidade igual à soma dos valores absolutos dos coeficientes à função de custo dos mínimos quadrados ordinários (OLS)[1][5]. Esse método realiza **seleção de variáveis** e **regularização** simultaneamente, reduzindo coeficientes menos importantes a zero para diminuir overfitting e melhorar a interpretabilidade do modelo[2][6].
 
-## Key Components
+## [Key Components]():
 
 - **Objective Function**: Minimiza a soma dos resíduos ao quadrado (RSS) sujeita a uma restrição na soma dos coeficientes absolutos:  
   $$
@@ -953,6 +953,20 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 - **Regularization Parameter ($\lambda$)**:  
   - Valores maiores de $\lambda$ aumentam o encolhimento, eliminando mais características[1].  
   - Otimizado via validação cruzada para equilibrar o tradeoff viés-variância[5][6].
+
+
+
+### [Comparison with Ridge Regression]():
+
+<br>
+
+| **Aspect**          | **Lasso (L1)**                        | **Ridge (L2)**                       |
+|---------------------|-------------------------------------|------------------------------------|
+| **Penalty Term**     | $$\lambda \sum |w_i|$$               | $$\lambda \sum w_i^2$$              |
+| **Feature Selection**| Sim (modelos esparsos)               | Não (mantém todas as variáveis)    |
+| **Use Case**         | Dados de alta dimensão com sinais esparsos | Preditores correlacionados, coeficientes pequenos |
+| **Bias**             | Introduz viés para coeficientes grandes | Encolhimento mais uniforme[2][6]  |
+
 
 
 
