@@ -952,14 +952,14 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 - **Objective Function**: Minimizes the residual sum of squares (RSS) subject to a constraint on the sum of absolute coefficients:
   
-### $\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)$
+### $\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)\$
   
   [Where]():
   
 ### $\lambda$$ controls the regularization strength.
 
 
-- **Feature Selection**: The L1 penalty forces some coefficients to be exactly zero, effectively excluding irrelevant variables from the model[3][6].
+- **Feature Selection**: The L1 penalty forces some coefficients to be exactly zero, effectively excluding irrelevant variables from the model.
 
 
 - **Regularization Parameter ($\lambda$)**:  
