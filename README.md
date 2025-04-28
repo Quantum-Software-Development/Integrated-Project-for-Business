@@ -946,6 +946,14 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
   \arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)
   $$
   onde $$\lambda$$ controla a força da regularização[1][5].
+  
+
+- **Feature Selection**: A penalização L1 força alguns coeficientes a serem exatamente zero, excluindo efetivamente variáveis irrelevantes do modelo[3][6].
+
+- **Regularization Parameter ($\lambda$)**:  
+  - Valores maiores de $\lambda$ aumentam o encolhimento, eliminando mais características[1].  
+  - Otimizado via validação cruzada para equilibrar o tradeoff viés-variância[5][6].
+
 
 
 
