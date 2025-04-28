@@ -943,12 +943,10 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-### [Definition]:
+### [Definition](():
 
 **Lasso regression** (**L**east **A**bsolute **S**hrinkage and **S**election **O**perator) is a linear regression technique that applies **L1 regularization** by adding a penalty term equal to the sum of the absolute values of the coefficients to the ordinary least squares (OLS) cost function[1][5]. This method performs **variable selection** and **regularization** simultaneously, shrinking less important coefficients to zero to reduce overfitting and enhance model interpretability[2][6].
 
-
-## [Key Components]():
 
 ### [Key Components]():
 
