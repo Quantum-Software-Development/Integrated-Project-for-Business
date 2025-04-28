@@ -1010,6 +1010,25 @@ The regularization parameter \(\lambda\) controls the strength of the penalty:
 
 ### Step 2: Model Training and Hyperparameter Tuning (Python Example)
 
+```python
+from sklearn.linear_model import RidgeCV from sklearn.preprocessing import StandardScaler from sklearn.model_selection import train_test_split from sklearn.metrics import mean_squared_error import numpy as np
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Scale features
+scaler = StandardScaler().fit(X_train) X_train_scaled = scaler.transform(X_train) X_test_scaled = scaler.transform(X_test)
+
+# Define candidate lambdas (alphas)
+alphas = 0.001, 0.01, 0.1, 1, 10, 100
+
+# Train Ridge with cross-validation
+ridge_cv = RidgeCV(alphas=alphas, cv=5).fit(X_train_scaled, y_train) best_alpha = ridge_cv.alpha_
+
+# Predictions and evaluation
+y_pred = ridge_cv.predict(X_test_scaled) rmse = np.sqrt(mean_squared_error(y_test, y_pred)) print(f”Best lambda: {best_alpha}, Test RMSE: {rmse}”)
+```
+
 
 
 
