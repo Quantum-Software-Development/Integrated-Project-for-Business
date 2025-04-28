@@ -971,22 +971,9 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 | **Bias**             | Introduces bias for large coefficients | More uniform shrinkage[2][6]       |
 
 
-## [](():
+## [Applications](():
 
 Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection[6].
-
-
-### [Comparison with Ridge Regression]():
-
-<br>
-
-| **Aspect**          | **Lasso (L1)**                        | **Ridge (L2)**                       |
-|---------------------|-------------------------------------|------------------------------------|
-| **Penalty Term**     | $$\lambda \sum |w_i|$$               | $$\lambda \sum w_i^2$$              |
-| **Feature Selection**| Sim (modelos esparsos)               | Não (mantém todas as variáveis)    |
-| **Use Case**         | Dados de alta dimensão com sinais esparsos | Preditores correlacionados, coeficientes pequenos |
-| **Bias**             | Introduz viés para coeficientes grandes | Encolhimento mais uniforme[2][6]  |
-
 
 
 
