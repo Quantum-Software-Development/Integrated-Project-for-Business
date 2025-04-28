@@ -956,7 +956,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
   
   [Where]():
   
-### $\lambda$$ controls the regularization strength[1][5].
+### $\lambda$$ controls the regularization strength.
 
 
 - **Feature Selection**: The L1 penalty forces some coefficients to be exactly zero, effectively excluding irrelevant variables from the model[3][6].
@@ -984,10 +984,26 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection.
 
-### [Regularization in Machine Learning: 
+### [Regularization in Machine Learning][(): 
 
-Regularization is a set of techniques used to prevent **overfitting** and handle **multicollinearity** in predictive machine learning models[1][3]. It works by adding a **penalty term** to the model’s loss function, which discourages complex models with large coefficients and helps improve generalization to new data.
+Regularization is a set of techniques used to prevent **overfitting** and handle **multicollinearity** in predictive machine learning models. It works by adding a **penalty term** to the model’s loss function, which discourages complex models with large coefficients and helps improve generalization to new data.
 
+
+### [Main Regularization Techniques]()(:
+
+- **L1 Regularization (Lasso):**  
+  Adds a penalty proportional to the sum of the absolute values of the coefficients:
+  
+  $\text{Loss} = \text{SSE} + \lambda \sum_i |w_i| \$
+  
+  Encourages sparsity by shrinking some coefficients exactly to zero, thus performing feature selection.
+
+- **L2 Regularization (Ridge):**  
+  Adds a penalty proportional to the sum of squared coefficients:
+  
+  $\text{Loss} = \text{SSE} + \lambda \sum_i w_i^2\$
+  
+  Shrinks coefficients towards zero but does not eliminate them, improving model stability[1][5].
 
 
 
