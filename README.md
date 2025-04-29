@@ -1040,7 +1040,16 @@ The goal of this project is to:
 - Compare their performance using Mean Squared Error (MSE) and R² score.
 - Visualize the results for easy interpretation.
 
+<br>  
 
+## [Requirements]():
+
+- Python 3.7+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
 
 
