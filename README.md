@@ -635,7 +635,7 @@ plt.show()
 
 <br>
 
-## Code Explanation
+## [Code Explanation]():
 
 Loading Data:
 
@@ -727,7 +727,7 @@ If the p-value for `Gmdireta` is greater than 0.05, it means that `Gmdireta` is 
 
 <br>
 
-### [Why Remove Gmdireta]()?
+### [Why Remove Gmdireta:
 
 [P-value](): The `p-value` is used to test the null hypothesis that the coefficient of the variable is equal to zero (i.e., the variable has no effect). If the p-value is greater than `0.05,` it indicates that the variable is not statistically significant at the 5% level and doesn't provide much explanatory power in the model.
 
@@ -802,7 +802,7 @@ plt.show()
 ```
 <br>
 
-## Key Changes:
+## [Key Changes]():
 
 ### [Removed Gmdireta]():
 
@@ -901,13 +901,6 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/3009ac9b2abbb0eddf3ee8a28d539f62e2eb33cf/class_4-Logistic%20Regression/Regressao_Logistica%20(1).ipynb) and access  Logistic Refression Basic Code
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/9a770fb9430c5c94ea1fe8a75d09d1aed7423a9e/class_5-2nd_Exam-Logistic%20Regression) and access  Logistic Refression Exercices + Codes and Datasets
-
-
-
-
-
-
-
 
 
 
@@ -1030,6 +1023,12 @@ ridge_cv = RidgeCV(alphas=alphas, cv=5).fit(X_train_scaled, y_train) best_alph
 y_pred = ridge_cv.predict(X_test_scaled) rmse = np.sqrt(mean_squared_error(y_test, y_pred)) print(f”Best lambda: {best_alpha}, Test RMSE: {rmse}”)
 ```
 
+
+<br>
+
+## VI - # Lasso, Ridge, and Elastic Net Regression [Comparison]()
+
+Here we demonstrates how to apply and compare three popular linear regression techniques-**Lasso**, **Ridge**, and **Elastic Net**-using Python. The models are evaluated using a real estate dataset to predict property values.
 
 
 
