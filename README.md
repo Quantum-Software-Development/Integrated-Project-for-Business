@@ -1055,7 +1055,7 @@ The goal of this project is to:
 
 ### [Install dependencies with]():
 
-```bash
+```python
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
