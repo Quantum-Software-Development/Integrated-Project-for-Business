@@ -931,7 +931,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## V - [Ridge and Lasso Regression](): Complete Overview with Definitions, Regularization Concepts, and Implementation Steps
+## V - [Lasso, Ridge and Ecolastic Net Regression](): Complete Overview with Definitions, Regularization Concepts, and Implementation Steps
 
 <br>
 
@@ -950,13 +950,14 @@ Lasso regression (**L**east **A**bsolute **S**hrinkage and **S**election **O**pe
 
 Used in genomics, finance, and machine learning for tasks requiring model simplicity, multicollinearity handling, and automated feature selection.
 
-**Objective Function:**
+### [**Objective Function:**]():
 
 $\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 \right)\$
 
 Where $\(\lambda\)$ controls the regularization strength.
 
-### Ridge Regression (L2 Regularization)
+### [Ridge Regression]() (L2 Regularization):
+
 Ridge regression applies **L2 regularization** by adding a penalty term equal to the sum of the squared coefficients to the OLS cost function. It shrinks coefficients toward zero but does not eliminate them, making it effective for handling multicollinearity and improving model stability.
 
 **Objective Function:**
@@ -967,7 +968,7 @@ $\arg\min_{\mathbf{w}} \left( \text{MSE}(\mathbf{w}) + \lambda \|\mathbf{w}\|_2^
 
 <br>
 
-## 2. Regularization to Prevent Overfitting
+## 2. [Regularization to Prevent Overfitting]():
 
 Regularization techniques add a **penalty term** to the loss function to discourage complex models that overfit the training data by fitting noise instead of underlying patterns. The penalty term controls the magnitude of the coefficients, reducing variance at the cost of introducing some bias (bias-variance tradeoff). This leads to better generalization on unseen data.
 
