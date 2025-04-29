@@ -1031,6 +1031,15 @@ y_pred = ridge_cv.predict(X_test_scaled) rmse = np.sqrt(mean_squared_error(y_t
 Here we demonstrates how to apply and compare three popular linear regression techniques-**Lasso**, **Ridge**, and **Elastic Net**-using Python. The models are evaluated using a real estate dataset to predict property values.
 
 
+### [Overview]():
+
+The goal of this project is to:
+
+- Load and preprocess a real estate dataset.
+- Train and evaluate Lasso, Ridge, and Elastic Net regression models.
+- Compare their performance using Mean Squared Error (MSE) and R² score.
+- Visualize the results for easy interpretation.
+
 
 
 
