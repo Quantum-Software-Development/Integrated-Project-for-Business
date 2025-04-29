@@ -1051,6 +1051,16 @@ The goal of this project is to:
 - seaborn
 - scikit-learn
 
+<br>
+
+### [Install dependencies with]():
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+<br>
+
 
 
 
