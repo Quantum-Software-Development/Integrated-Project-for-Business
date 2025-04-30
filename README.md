@@ -1287,6 +1287,33 @@ r2_elastic = r2_score(y_test, y_pred_elastic)
 print(f"Elastic Net Regression - MSE: {mse_elastic}, R2: {r2_elastic}")
 ```
 
+<br>
+
+#### Comparing the results of the three models
+
+```python
+results = pd.DataFrame({
+'Model': ['Lasso', 'Ridge', 'Elastic Net'],
+'MSE': [mse_lasso, mse_ridge, mse_elastic],
+'R2': [r2_lasso, r2_ridge, r2_elastic]
+})
+
+print(results)
+```
+
+<br>
+
+## Step 8: [Visualize Results]()
+
+
+
+
+
+
+
+
+
+
 
 
 
