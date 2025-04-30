@@ -1116,10 +1116,34 @@ from sklearn.preprocessing import StandardScaler
 
 <br>  
 
+### Setting dark mode for plots
 
+<br>  
 
+```python
+plt.style.use('dark_background')
+sns.set_palette("deep")
+```
 
+<br>  
 
+### Step 2: Load the Dataset
+
+### Loading the dataset
+
+```python
+# Replace the file path with the correct one if necessary
+
+dados = pd.read_excel('/Users/fabicampanari/Desktop/class_6-Lasso Regression/project_6-Lasso-Roidge-Elastic-Regression/Imoveis (1).xlsx')
+```
+<br>  
+
+### Replace the file path with the correct one if necessary
+
+```python
+dados = pd.read_excel('/Users/fabicampanari/Desktop/class_6-Lasso Regression/project_6-Lasso-Roidge-Elastic-Regression/Imoveis (1).xlsx')
+```
+<br>  
 
 
 
