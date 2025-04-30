@@ -147,7 +147,7 @@ The output will provide the descriptive statistics before and after each standar
 
  <br>
 
-## Practical Example for Calculating this Normalized Value in [Python]():
+### [Practical Example for Calculating this Normalized Value in Python]():
 
 #### Use this [dataset](https://github.com/Quantum-Software-Development/Integrated_Project-Business/blob/f2d7abe6ee5853ae29c750170a01e429334f6fe5/HomeWork/1-Z-Score-Range/cadastro_funcionarios.xlsx)
 
@@ -155,7 +155,7 @@ The code demonstrates how to apply Z-Score and Range (Min-Max) standardization t
 
  <br>
 
-### Cell 1: [Import necessary libraries]()
+#### Cell 1: [Import necessary libraries]()
 
 ```python
 # Importing the necessary libraries
@@ -166,7 +166,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 <br>
 
-### Cell 2: [Load the dataset from the Excel file]()
+#### Cell 2: [Load the dataset from the Excel file]()
 
 ```python
 # Load the data from the Excel file
@@ -177,7 +177,7 @@ df.head()  # Displaying the first few rows of the dataset to understand its stru
 
 <br>
 
-### Cell 3: [Evaluate the statistics before standardization]()
+#### Cell 3: [Evaluate the statistics before standardization]()
 
 ```python
 # Step 1: Evaluate the mean, std, max, and min before standardization
@@ -204,7 +204,7 @@ before_std_stats
 
 <br>
 
-### Cell 4: [Apply Z-Score standardization]()
+#### Cell 4: [Apply Z-Score standardization]()
 
 ```python
 # Step 2: Z-Score Standardization
@@ -216,7 +216,7 @@ df_zscore.head()
 
 <br>
 
-### Cell 5: [Evaluate the statistics after Z-Score standardization]()
+#### Cell 5: [Evaluate the statistics after Z-Score standardization]()
 
 ```python
 # Step 3: Evaluate the mean, std, max, and min after Z-Score standardization
@@ -243,7 +243,7 @@ after_zscore_stats
 
 <br>
 
-### Cell 6: [Apply Range Standardization]() (Min-Max Scaling)
+#### Cell 6: [Apply Range Standardization]() (Min-Max Scaling)
 
 ```python
 # Step 4: Range Standardization (Min-Max Scaling)
@@ -256,7 +256,7 @@ df_range.head()
 
 <br>
 
-### Cell 7: [Evaluate the statistics after Range standardization]()
+#### Cell 7: [Evaluate the statistics after Range standardization]()
 
 ```python
 # Step 5: Evaluate the mean, std, max, and min after Range standardization
