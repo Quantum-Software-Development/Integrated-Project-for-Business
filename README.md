@@ -1331,13 +1331,14 @@ plt.show()
 
 #### Plotting the comparison of R2
 
+```python
 plt.figure(figsize=(10, 6))
 sns.barplot(x='Model', y='R2', data=results)
 plt.title('Comparison of R2 Across Models', fontsize=16)
 plt.xlabel('Regression Model', fontsize=14)
 plt.ylabel('R2 Score', fontsize=14)
 plt.show()
-
+```
 
 <br>
 
