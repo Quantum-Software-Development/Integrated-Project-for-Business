@@ -1091,7 +1091,30 @@ python your_script_name.py
 
 <br>   
 
+### [Code Structure]():
 
+### The script follows these steps:
+
+<br>  
+
+### 1. Step 1: Import Necessary Libraries
+
+<br>  
+
+```python
+# Importing essential libraries
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import Lasso, Ridge, ElasticNet
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.preprocessing import StandardScaler
+```
+
+<br>  
 
 
 
