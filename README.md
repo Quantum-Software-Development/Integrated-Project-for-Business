@@ -63,8 +63,8 @@ This project demonstrates a complete machine learning workflow for price predict
    - [Key Formulas](#key-formulas)  
    - [Statistical Results](#statistical-results)  
    - [Code Implementation](#code-implementation)  
-   - [Stepwise Regression](#stepwise-regression)  
-
+   - [Stepwise Regression](#stepwise-regression)
+8. [Logistic Regression Analysis Report 📊](#logistic-regression)  
 
 <br><br>
 
