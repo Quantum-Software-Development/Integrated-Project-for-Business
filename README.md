@@ -1307,6 +1307,24 @@ print(results)
 
 ## Step 8: [Visualize Results]()
 
+<br>
+
+#### Plotting the comparison of MSE
+
+```python
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Model', y='MSE', data=results)
+plt.title('Comparison of MSE Across Models', fontsize=16)
+plt.xlabel('Regression Model', fontsize=14)
+plt.ylabel('Mean Squared Error', fontsize=14)
+plt.show()
+```
+
+<br>
+
+
+
+
 
 
 
