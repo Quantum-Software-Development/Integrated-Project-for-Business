@@ -1146,6 +1146,63 @@ dados = pd.read_excel('/Users/fabicampanari/Desktop/class_6-Lasso Regression/pro
 ```
 <br>  
 
+#### Displaying the first few rows of the dataset
+
+```python
+print(dados.head())
+```
+
+<br>  
+
+### Step 3: [Preprocess the Data]()
+
+<br>  
+
+#### Separating predictors (X) and the target variable (y)
+
+```python
+X = dados.drop(columns=['Valor'])  \# Replace 'Value' with the actual column name for the target variable
+y = dados['Valor']
+```
+
+<br>  
+
+#### Splitting the data into training and testing sets
+
+```python
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+<br>  
+
+#### Standardizing the predictors
+
+```python
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+```
+
+<br>  
+
+## Step 4: Lasso Regression
+
+<br>  
+
+### # Fitting a Lasso Regression model
+
+```python
+lasso = Lasso(alpha=0.1, random_state=42)  \# Adjust alpha as needed
+lasso.fit(X_train_scaled, y_train)
+```
+
+
+
+
+
+
+
+
 
 
 
