@@ -1098,7 +1098,7 @@ python your_script_name.py
 
 <br>  
 
-### 1. Step 1: [Import Necessary Libraries]()
+## 1. Step 1: [Import Necessary Libraries]()
 
 ```python
 # Importing essential libraries
@@ -1126,7 +1126,7 @@ sns.set_palette("deep")
 
 <br>  
 
-### Step 2: [Load the Dataset]()
+## Step 2: [Load the Dataset]()
 
 #### Loading the dataset
 
@@ -1152,7 +1152,7 @@ print(dados.head())
 
 <br>  
 
-### Step 3: [Preprocess the Data]()
+## Step 3: [Preprocess the Data]()
 
 #### Separating predictors (X) and the target variable (y)
 
@@ -1262,7 +1262,30 @@ elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.5, random_state=42)  \# Adjust al
 elastic_net.fit(X_train_scaled, y_train)
 ```
 
+<br>
 
+####  Making predictions
+
+```python
+y_pred_elastic = elastic_net.predict(X_test_scaled)
+```
+
+<br>
+
+#### Evaluating the model
+
+```python
+mse_elastic = mean_squared_error(y_test, y_pred_elastic)
+r2_elastic = r2_score(y_test, y_pred_elastic)
+```
+
+<br>
+
+#### Printing results
+
+```python
+print(f"Elastic Net Regression - MSE: {mse_elastic}, R2: {r2_elastic}")
+```
 
 
 
