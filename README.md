@@ -730,7 +730,7 @@ If the p-value for `Gmdireta` is greater than 0.05, it means that `Gmdireta` is 
 
 <br>
 
-### [Why Remove Gmdireta:
+### [Why Remove Gmdireta]():
 
 [P-value](): The `p-value` is used to test the null hypothesis that the coefficient of the variable is equal to zero (i.e., the variable has no effect). If the p-value is greater than `0.05,` it indicates that the variable is not statistically significant at the 5% level and doesn't provide much explanatory power in the model.
 
@@ -738,7 +738,7 @@ If the p-value for `Gmdireta` is greater than 0.05, it means that `Gmdireta` is 
 
 <br>
 
-### Modified Python Code (Without Gmdireta)
+### [Modified Python Code](Without Gmdireta):
 
 Let’s update the code by removing Gmdireta from the regression model and re-running the analysis with just Gjornal and GTV as the independent variables.
 
@@ -876,9 +876,7 @@ GTV            1.3547      0.290      4.673      0.000       0.778       1.931
 
 [R-squared](): A value of 0.976 means that the independent variables `Gjornal` and `GTV` explain 97.6% of the variance in `Vendas`, which is a good fit.
 
-
 <br>
-
 
 ### [Coefficients]():
 
@@ -888,7 +886,9 @@ The coefficient for Gjornal (2.8951) tells us that for each unit increase in `Gj
 
 The coefficient for `GTV` (1.3547) tells us that for each unit increase in `GTV`, `Vendas` increases by approximately 1.35 units.
 
-[P-values](): Both `Gjornal` and `GTV` have very small p-values (much smaller than 0.05), indicating that they are statistically significant in predicting `Vendas`.
+<br>
+
+### [P-values](): Both `Gjornal` and `GTV` have very small p-values (much smaller than 0.05), indicating that they are statistically significant in predicting `Vendas`.
 
 By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the regression model now focuses on the variables that have a stronger statistical relationship with the dependent variable `Vendas`.
 
@@ -920,8 +920,6 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 #### [Click here]() and access  Discriminant  Exercices + Codes and Datasets
 
 #### [Click here](https://github.com/FabianaCampanari/Iris-DataAnalysis-Seaborn-) and acess Iris Repository
-
-
 
 
 
@@ -977,7 +975,7 @@ The regularization parameter \(\lambda\) controls the strength of the penalty:
 
 <br>
 
-## 3. Penalization Terms Summary
+### 3. [Penalization Terms Summary]()
 
 | Regularization Type | Penalization Term                  | Effect                         |
 |--------------------|----------------------------------|--------------------------------|
@@ -987,7 +985,7 @@ The regularization parameter \(\lambda\) controls the strength of the penalty:
 
 <br>
 
-## 4. Comparison Between Lasso and Ridge
+### 4. [Comparison Between Lasso and Ridge]()
 
 | Aspect               | Lasso (L1)                              | Ridge (L2)                            |
 |----------------------|---------------------------------------|-------------------------------------|
@@ -999,7 +997,7 @@ The regularization parameter \(\lambda\) controls the strength of the penalty:
 
 <br>
 
-### 5. How to Execute Ridge Regression: Step-by-Step
+### 5. [How to Execute Ridge Regression: Step-by-Step]()
 
 ### Step 1: Data Preparation
 - **Standardize features** to zero mean and unit variance because Ridge regression is sensitive to feature scales.  
@@ -1026,13 +1024,13 @@ ridge_cv = RidgeCV(alphas=alphas, cv=5).fit(X_train_scaled, y_train) best_alph
 y_pred = ridge_cv.predict(X_test_scaled) rmse = np.sqrt(mean_squared_error(y_test, y_pred)) print(f”Best lambda: {best_alpha}, Test RMSE: {rmse}”)
 ```
 
-
 <br>
 
-## VI - # Lasso, Ridge, and Elastic Net Regression [Comparison]()
+## VI - [Comparing Reults -  Lasso, Ridge, and Elastic Net Regression]()
 
 Here we demonstrates how to apply and compare three popular linear regression techniques-**Lasso**, **Ridge**, and **Elastic Net**-using Python. The models are evaluated using a real estate dataset to predict property values.
 
+<br>
 
 ### [Overview]():
 
