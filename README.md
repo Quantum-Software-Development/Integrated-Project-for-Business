@@ -66,8 +66,8 @@ This project demonstrates a complete machine learning workflow for price predict
    - [Stepwise Regression](#stepwise-regression)
 8. [Logistic Regression Analysis Report](#logistic-regression)
 9. [Discriminant Analysis](#discriminant-analysis)
-10. [Lasso, Ridge and Elastic Net Regression](Lasso-ridge-elastic-net-regression)
-   - [Lasso, Ridge and Elastic Net Regression](#dataset-overview) 
+10. [Lasso, Ridge and Elastic Net Regression](#lasso-ridge-elastic-net-regression)
+   - [Compare Results: Lasso, Ridge and Elastic Net Regression](#compare-results-lasso-ridge-elastic-net-regression)
 
 <br><br>
 
