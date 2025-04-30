@@ -1183,7 +1183,6 @@ X_test_scaled = scaler.transform(X_test)
 
 ## Step 4: [Lasso Regression]()
 
-
 #### Fitting a Lasso Regression model
 
 ```python
@@ -1216,10 +1215,52 @@ r2_lasso = r2_score(y_test, y_pred_lasso)
 print(f"Lasso Regression - MSE: {mse_lasso}, R2: {r2_lasso}")
 ```
 
+<br>
 
+## Step 5: [Ridge Regression]()
 
+#### Fitting a Ridge Regression model
 
+```python
+ridge = Ridge(alpha=0.1, random_state=42)  \# Adjust alpha as needed
+ridge.fit(X_train_scaled, y_train)
+```
 
+<br>
+
+#### Making predictions
+
+```python
+y_pred_ridge = ridge.predict(X_test_scaled)
+```
+
+<br>
+
+#### Evaluating the model
+
+```python
+mse_ridge = mean_squared_error(y_test, y_pred_ridge)
+r2_ridge = r2_score(y_test, y_pred_ridge)
+```
+
+<br>
+
+#### Printing results
+
+```python
+print(f"Ridge Regression - MSE: {mse_ridge}, R2: {r2_ridge}")
+```
+
+<br>
+
+## Step 6: [Elastic Net Regression]()
+
+#### Fitting an Elastic Net model
+
+```python
+elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.5, random_state=42)  \# Adjust alpha and l1_ratio as needed
+elastic_net.fit(X_train_scaled, y_train)
+```
 
 
 
