@@ -1191,7 +1191,30 @@ lasso = Lasso(alpha=0.1, random_state=42)  \# Adjust alpha as needed
 lasso.fit(X_train_scaled, y_train)
 ```
 
+<br>  
 
+#### Making predictions
+
+```python
+y_pred_lasso = lasso.predict(X_test_scaled)
+```
+
+<br>  
+
+#### Evaluating the model
+
+```python
+mse_lasso = mean_squared_error(y_test, y_pred_lasso)
+r2_lasso = r2_score(y_test, y_pred_lasso)
+```
+
+<br>  
+
+#### Printing results
+
+```python
+print(f"Lasso Regression - MSE: {mse_lasso}, R2: {r2_lasso}")
+```
 
 
 
