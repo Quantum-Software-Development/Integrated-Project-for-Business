@@ -1289,6 +1289,8 @@ print(f"Elastic Net Regression - MSE: {mse_elastic}, R2: {r2_elastic}")
 
 <br>
 
+## Step 7: [Compare Results]()
+
 #### Comparing the results of the three models
 
 ```python
@@ -1301,7 +1303,7 @@ results = pd.DataFrame({
 print(results)
 ```
 
-<br>
+<br> 
 
 ## Step 8: [Visualize Results]()
 
