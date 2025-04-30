@@ -1068,9 +1068,35 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - The dataset should be in Excel format (`.xlsx`) and must contain a column named `Valor` (the target variable).
 - Update the file path in the code as needed:
 
+<br>
+
 ```python
 dados = pd.read_excel('path/to/your/Imoveis.xlsx')
 ```
+
+<br>
+
+### How to Run
+
+1. **Clone this repository or copy the code.**
+2. **Ensure your dataset is available and the path is correct.**
+3. **Install the required libraries.**
+4. **Run the script:**
+
+<br>   
+
+```bash
+python your_script_name.py
+```
+
+<br>   
+
+
+
+
+
+
+
 
 
 
