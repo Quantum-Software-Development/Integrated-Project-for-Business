@@ -1043,7 +1043,7 @@ The goal of this project is to:
 
 <br>  
 
-## [Requirements]():
+### [Requirements]():
 
 - Python 3.7+
 - pandas
@@ -1054,7 +1054,7 @@ The goal of this project is to:
 
 <br>
 
-### [Install dependencies with]():
+### [Install Dependencies with]():
 
 ```python
 pip install pandas numpy matplotlib seaborn scikit-learn
@@ -1099,8 +1099,6 @@ python your_script_name.py
 <br>  
 
 ### 1. Step 1: [Import Necessary Libraries]()
-
-<br>  
 
 ```python
 # Importing essential libraries
@@ -1156,8 +1154,6 @@ print(dados.head())
 
 ### Step 3: [Preprocess the Data]()
 
-<br>  
-
 #### Separating predictors (X) and the target variable (y)
 
 ```python
@@ -1185,11 +1181,10 @@ X_test_scaled = scaler.transform(X_test)
 
 <br>  
 
-## Step 4: Lasso Regression
+## Step 4: [Lasso Regression]()
 
-<br>  
 
-### # Fitting a Lasso Regression model
+#### Fitting a Lasso Regression model
 
 ```python
 lasso = Lasso(alpha=0.1, random_state=42)  \# Adjust alpha as needed
