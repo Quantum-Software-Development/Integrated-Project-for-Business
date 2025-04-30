@@ -1063,6 +1063,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### [Dataset]()
 
+https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/2d91771f1f79bef4d4d635d5bf17564e140cb0c2/Projects/project_6-Lasso-Roidge-Elastic-Regression/Imoveis%20(1).xlsx
+
 - The dataset should be in Excel format (`.xlsx`) and must contain a column named `Valor` (the target variable).
 - Update the file path in the code as needed:
 
