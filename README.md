@@ -295,7 +295,7 @@ To standardize the variables (salary, number of children, and age) in Excel usin
 
 ### Steps for Z-Score in Excel:
 
-### 1. [Find the Mean (µ)]():
+#### 1. [Find the Mean (µ)]():
 
 Use the AVERAGE function to calculate the mean of the column. For example, to find the mean of the salary (column E), use:
 
@@ -305,7 +305,7 @@ Use the AVERAGE function to calculate the mean of the column. For example, to fi
 
 <br>
 
-### 2. [Find the Standard Deviation (σ)]():
+#### 2. [Find the Standard Deviation (σ)]():
    
 Use the STDEV.P function to calculate the standard deviation of the column. For example, to find the standard deviation of the salary (column E), use:
 
@@ -315,7 +315,7 @@ Use the STDEV.P function to calculate the standard deviation of the column. For 
 
 <br>
 
-### 3. [Apply the Z-Score Formula]():
+#### 3. [Apply the Z-Score Formula]():
 
 For each value in the column, apply the Z-Score formula. In the first row of the new column, use:
 
@@ -325,7 +325,7 @@ For each value in the column, apply the Z-Score formula. In the first row of the
 
 <br>
 
-### 4.[Drag the formula down to calculate the Z-Score for all the rows]():
+#### 4.[Drag the formula down to calculate the Z-Score for all the rows]():
 
 Example for Salary:
 
@@ -346,7 +346,7 @@ Repeat the same steps for the variables n_filhos (column D) and idade (column F)
 
 Steps for Range Standardization in Excel:
 
-### 1. [Find the Min and Max]():
+#### 1. [Find the Min and Max]():
 
 Use the MIN and MAX functions to find the minimum and maximum values of the column. For example, to find the min and max of salary (column E), use:
 
@@ -357,7 +357,7 @@ Use the MIN and MAX functions to find the minimum and maximum values of the colu
 
 <br>
 
-### 2. [Apply the Range Formula]():
+#### 2. [Apply the Range Formula]():
 
 For each value in the column, apply the range formula. In the first row of the new column, use:
 
@@ -367,7 +367,7 @@ For each value in the column, apply the range formula. In the first row of the n
 
 <br>
 
-### 3.[Drag the formula down to calculate the range standardized values for all the rows]():
+#### 3.[Drag the formula down to calculate the range standardized values for all the rows]():
 
 Example for Salary:
 
@@ -383,7 +383,7 @@ Repeat the same steps for the variables n_filhos (column D) and idade (column F)
 <br>
 
 
-## Summary of the Process
+### [Summary of the Process]():
 
 [Z-Score Standardization]() centers the data around [zero]() and scales it based on the [standard deviation]().
 
@@ -392,16 +392,17 @@ Repeat the same steps for the variables n_filhos (column D) and idade (column F)
 Both techniques were applied (given dataset)  to the [columns n_filhos](), [salario](), and [idade](), and the statistics (mean, std, min, max) were calculated before and after the standardization methods.
 
 
-<br><br>
+<br>
 
-
-## Important Notes
+### [Important Notes]():
 
 - **Correlation does not imply causation**: Correlation between two variables does not necessarily mean that one causes the other. For example, there may be a correlation between the number of salespeople in a store and increased sales, but that does not imply that having more salespeople directly causes higher sales.
 
 - **Using regressions we don’t need to worry about standardization**: When using regressions, there is no need to worry about data standardization. Unlike other methods like k-NN or neural networks, where the scale of the data can impact performance, regression models can be applied directly without the need for scaling adjustments.
 
-## Pearson Correlation
+<br>
+
+## [Pearson Correlation]()
 
 **Pearson Correlation** is a statistical measure that describes the strength and direction of a linear relationship between two variables. The Pearson correlation value ranges from -1 to 1:
 
@@ -446,13 +447,19 @@ Simple linear regression is a great starting point for predictive problems where
 
 
 
-### Step 1: Install Required Libraries
+### Step 1: [Install Required Libraries]()
 
 If you don't have the required libraries installed, you can install them with pip:
+
+<br>
 
 ```python
 pip install pandas numpy matplotlib scikit-learn openpyxl
 ```
+
+<br>
+
+### Step 2: [Run rhis Script]()
 
 <br>
 
