@@ -66,8 +66,8 @@ This project demonstrates a complete machine learning workflow for price predict
    - [Stepwise Regression](#stepwise-regression)
 8. [Logistic Regression Analysis Report 📊](#logistic-regression)
 9. [Discriminant Analysis  📊](#discriminant-analysis)
-10. []()
-11. []()
+10. [Lasso-Ridge-Elastic Net Regression](Lasso-ridge-elastic-net-regression)
+
 
 <br><br>
 
@@ -1079,7 +1079,7 @@ dados = pd.read_excel('path/to/your/Imoveis.xlsx')
 
 <br>
 
-### How to Run
+### [How to Run]()
 
 1. **Clone this repository or copy the code.**
 2. **Ensure your dataset is available and the path is correct.**
@@ -1100,7 +1100,7 @@ python your_script_name.py
 
 <br>  
 
-### 1. Step 1: Import Necessary Libraries
+### 1. [Step 1: Import Necessary Libraries()
 
 <br>  
 
@@ -1130,7 +1130,7 @@ sns.set_palette("deep")
 
 <br>  
 
-### Step 2: Load the Dataset
+### Step 2: [Load the Dataset]()
 
 ### Loading the dataset
 
