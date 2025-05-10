@@ -26,7 +26,7 @@ Ensure that your dataset (e.g., binary.csv) is placed in the same directory as t
 import pandas as pd
 
 # Load the dataset
-data = pd.read_csv('binary.csv')
+data = pd.read_csv("https://stats.idre.ucla.edu/stat/data/binary.csv")
 
 Stepwise Feature Selection
 
