@@ -21,6 +21,8 @@ Dataset
 
 Ensure that your dataset (e.g., binary.csv) is placed in the same directory as the notebook or script. The dataset should contain both the independent variables (features) and the dependent variable (target).
 
+
+```python
 import pandas as pd
 
 # Load the dataset
@@ -34,6 +36,7 @@ We apply the stepwise selection method to identify significant features for the 
 selected_features = stepwise_selection(X_train, y_train)
 print("\nSelected variables by Stepwise method:")
 print(selected_features)
+```
 
 Note: Implement the stepwise_selection function or use existing libraries that support stepwise regression.
 
@@ -41,29 +44,46 @@ Model Fitting
 
 Using the selected features, we fit the logistic regression model.
 
+```python
 import statsmodels.api as sm
+```
 
 # Prepare the training and testing data with selected features
+
+```python
 X_train_selected = X_train[selected_features]
 X_test_selected = X_test[selected_features]
+```
 
 # Fit the logistic regression model
+
+```python
 model_final = sm.Logit(y_train, X_train_selected).fit()
+```
 
 # Display the summary of the final model
+
+```python
 print("\nFinal Model Summary:")
 print(model_final.summary())
+```
 
 Model Evaluation
 
 Evaluate the model’s performance using various metrics.
 
+```python
 from sklearn.metrics import confusion_matrix, classification_report, roc_curve, auc
 import matplotlib.pyplot as plt
+```
 
 # Predict probabilities on the test set
+
+```python
 y_pred = model_final.predict(X_test_selected)
 y_pred_class = (y_pred > 0.5).astype(int)
+```
+
 
 # Confusion Matrix
 conf_matrix = confusion_matrix(y_test, y_pred_class)
