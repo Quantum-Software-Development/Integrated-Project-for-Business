@@ -86,9 +86,12 @@ y_pred_class = (y_pred > 0.5).astype(int)
 
 
 # Confusion Matrix
+
+```python
 conf_matrix = confusion_matrix(y_test, y_pred_class)
 print("\nConfusion Matrix:")
 print(conf_matrix)
+```
 
 # Classification Report
 print("\nClassification Report:")
