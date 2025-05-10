@@ -166,11 +166,12 @@ def stepwise_selection(X, y):
 
 ### Key Metrics Table
 
+
 | Metric         | Value   | Interpretation                  |
 |----------------|---------|---------------------------------|
 | **R²**         | 0.872   | 87.2% variance explained        |
 | **Adj. R²**    | 0.865   | Adjusted for feature complexity |
-| **F-statistic**| 124.7   | p-value = 2.3e-16 (Significant)   |
+| **F-statistic**| 124.7   | p-value = 2.3e-16 (Significant)  |
 | **Intercept**  | 58,200  | Base price without features     |
 
 
@@ -229,8 +230,12 @@ plt.show()
 
 ## VI. How to Run
 
+
+```
 1. Install Dependencies: ```bash pip install -r requirements.txt
-      ```
+ ```
+
+
 <br> 
 2. Download Dataset:
     * From: data/housing_data.xlsx
@@ -238,7 +243,11 @@ plt.show()
 
 <br>
 
-   3..Execute Jupyter Notebook:    ```bash jupyter notebook price_prediction.ipynb
+   3..Execute Jupyter Notebook:  
+
+```bash
+    jupyter notebook price_prediction.ipynb
+
 ```
   Note: Full statistical outputs and diagnostic plots are available in the notebook.
 
