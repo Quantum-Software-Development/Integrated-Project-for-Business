@@ -1345,7 +1345,7 @@ plt.show()
 <br>
 
 
-## VII - [Artificial Neural Networks – Gradient Descent](): 
+## 10. - [Artificial Neural Networks – Gradient Descent - Build a Brain](): 
 
 This section provides a concise overview of the fundamental concepts behind Artificial Neural Networks (ANNs) and the Gradient Descent algorithm used for training them. It introduces key ideas such as the perceptron model, multilayer perceptrons (MLPs), error correction learning, and the backpropagation algorithm.
 
