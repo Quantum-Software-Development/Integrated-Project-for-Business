@@ -926,7 +926,9 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/a1d6bd1fec9a1603f60495ef27b31b1866934239/class_6-Discriminant%20Analysis/Discriminant.ipynb) and access  Discriminant  Basic Code - Iris
 
-#### [Click here]() and access  Discriminant  Exercices + Codes and Datasets
+#### [Click here]() and access  Discriminant  Exercices + Codes and 
+
+#### [Click here]() and access  Discriminant  Exercices in Excel
 
 #### [Click here](https://github.com/FabianaCampanari/Iris-DataAnalysis-Seaborn-) and acess Iris Repository
 
@@ -1035,7 +1037,7 @@ y_pred = ridge_cv.predict(X_test_scaled) rmse = np.sqrt(mean_squared_error(y_t
 
 <br>
 
-## VI - [Comparing Reults -  Lasso, Ridge, and Elastic Net Regression]()
+## [Comparing Reults]()  -  Lasso, Ridge, and Elastic Net Regression
 
 Here we demonstrates how to apply and compare three popular linear regression techniques-**Lasso**, **Ridge**, and **Elastic Net**-using Python. The models are evaluated using a real estate dataset to predict property values.
 
