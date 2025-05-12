@@ -21,7 +21,7 @@
 
 
 # Table of Contents  
-1. [What is Data Normalization/Scaling?](#what-is-data-normalizationscaling)  
+1. [Linear Regression and Data Scaling Analysis - Normalization - Scaling](#linear-regressio-data-scalinganalysis-normalization-scaling)  
 2. [Common Scaling Methods](#common-scaling-methods)  
 3. [Why is this Important in Machine Learning?](#why-is-this-important-in-machine-learning)  
 4. [Practical Example](#practical-example)  
@@ -56,7 +56,7 @@
 <br><br>
 
 
-# [I]() - Linear Regression and Data Scaling Analysis
+# [1.]() - LLinear Regression and Data Scaling Analysis - Normalization - Scaling
 
 <br>
 
@@ -94,11 +94,11 @@ $$X_{normalized} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}$$
 
  <br>
 
-####  <p align="center"> Is the `amplitude`, a way to represent the range of data values before normalization.
+###  <p align="center"> Is the `amplitude`, a way to represent the range of data values before normalization.
 
 <br>
 
-## [Explanation]():
+### [Explanation]():
 
 To calculate the standardization of the variables salario, n_filhos, and idade using both the Z-Score and Range methods, and to evaluate the mean, standard deviation, maximum, and minimum before and after standardization, we can follow these steps:
 
