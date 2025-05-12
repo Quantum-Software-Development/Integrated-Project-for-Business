@@ -22,7 +22,7 @@
 
 # Table of Contents  
 1. [Linear Regression and Data Scaling Analysis - Normalization - Scaling](#linear-regressio-data-scalinganalysis-normalization-scaling)  
-2. [Common Scaling Methods](#common-scaling-methods)  
+2. [Practical Example for Calculating this Normalized Value in Python](#practical-example-calculating-normalized-value-python)  
 3. [Why is this Important in Machine Learning?](#why-is-this-important-in-machine-learning)  
 4. [Practical Example](#practical-example)  
 5. [Code Example (Python)](#code-example-python)  
@@ -149,7 +149,7 @@ The output will provide the descriptive statistics before and after each standar
 
  <br>
 
-### [Practical Example for Calculating this Normalized Value in Python]():
+## [2.]() Practical Example for Calculating this Normalized Value in Python:
 
 #### Use this [dataset](https://github.com/Quantum-Software-Development/Integrated_Project-Business/blob/f2d7abe6ee5853ae29c750170a01e429334f6fe5/HomeWork/1-Z-Score-Range/cadastro_funcionarios.xlsx)
 
