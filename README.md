@@ -46,11 +46,11 @@
    - [Statistical Results](#statistical-results)  
    - [Code Implementation](#code-implementation)  
    - [Stepwise Regression](#stepwise-regression)
-9. [Logistic Regression Analysis Report](#logistic-regression)
-10. [Discriminant Analysis](#discriminant-analysis)
-11. [Lasso, Ridge and Elastic Net Regression](#lasso-ridge-elastic-net-regression)
+8. [Logistic Regression](#logistic-regression)
+9. [Discriminant Analysis](#discriminant-analysis)
+10. [Lasso, Ridge and Elastic Net Regression](#lasso-ridge-elastic-net-regression)
     - [Compare Results: Lasso, Ridge and Elastic Net Regression](#compare-results-lasso-ridge-elastic-net-regression)
-12. [Artificial Neural Networks – Gradient Descent](#artificial-neural-networks-gradient-descent)
+11. [Artificial Neural Networks – Gradient Descent](#artificial-neural-networks-gradient-descent)
     - [Build a Brain NVIDEA Course](build-a-brain-nvidea-course)
 
 <br><br>
@@ -747,7 +747,7 @@ If the p-value for `Gmdireta` is greater than 0.05, it means that `Gmdireta` is 
 
 <br>
 
-### [Modified Python Code](Without Gmdireta):
+### [Modified Python Code Without Gmdireta]():
 
 Let’s update the code by removing Gmdireta from the regression model and re-running the analysis with just Gjornal and GTV as the independent variables.
 
@@ -904,7 +904,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## III- [Logistic Regression]()
+## [8.]() Logistic Regression]
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/9cfecdfdd9d43e93089870e78216f1dc629702c0/class_4-Logistic%20Regression/Logistic%20Regression.pdf) to access Theoretical and Pratical Material.
 
@@ -918,7 +918,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## IV- [Discriminant Analysis]() - Iris
+## [9.]() Discriminant Analysis - Iris
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/5ab10f415d91d5165316facc007f06580ee3e4b7/class_6-Discriminant%20Analysis/Discriminant%20Analysis.pdf) to access Theoretical and Pratical Material.
 
