@@ -40,7 +40,7 @@
    - [V. Visualization](#v-visualization)  
    - [Actual vs Predicted Prices](#actual-vs-predicted-prices)  
    - [VI. How to Run](#vi-how-to-run)  
-8. [Linear Regression Analysis Report](#linear-regression-analysis-report)  
+7. [Multiple Linear Regression Analysis Report](#multiple-linear-regression-analysis-report)  
    - [Dataset Overview](#dataset-overview)  
    - [Key Formulas](#key-formulas)  
    - [Statistical Results](#statistical-results)  
@@ -559,7 +559,7 @@ import matplotlib.pyplot as plt
   
 <br>
 
-## II - [Multiple Linear Regression with 4 variable]() 
+## [7.]() - Multiple Linear Regression with 4 variable
 
 - Vendas as the dependent variable (Y)
   
