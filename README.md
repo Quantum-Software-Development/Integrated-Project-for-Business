@@ -23,10 +23,11 @@
 # Table of Contents  
 1. [Linear Regression and Data Scaling Analysis - Normalization - Scaling](#linear-regressio-data-scalinganalysis-normalization-scaling)  
 2. [Practical Example for Calculating this Normalized Value in Python](#practical-example-calculating-normalized-value-python)  
-3. [Pratical Example for Calculating this Normalized Value in Excel](#pratical-example-Calculating-normalized-value-excel)  
-4. [Practical Example](#practical-example)  
-5. [Code Example (Python)](#code-example-python)  
-6. [Linear Regression: Price Prediction Case Study](#linear-regression-price-prediction-case-study-)  
+3. [Pratical Example for Calculating this Normalized Value in Excel](#pratical-example-Calculating-normalized-value-excel)
+4. [Range Standardization](#range-standardization)
+5. [Pearson Correlation](#pearson-correlation)  
+6. [Code Example (Python)](#code-example-python)  
+7. [Linear Regression: Price Prediction Case Study](#linear-regression-price-prediction-case-study-)  
    - [I. Use Case Implementation](#i-use-case-implementation)  
    - [Dataset Description](#dataset-description)  
    - [II. Methodology](#ii-methodology)  
@@ -40,17 +41,17 @@
    - [V. Visualization](#v-visualization)  
    - [Actual vs Predicted Prices](#actual-vs-predicted-prices)  
    - [VI. How to Run](#vi-how-to-run)  
-7. [Linear Regression Analysis Report](#linear-regression-analysis-report)  
+8. [Linear Regression Analysis Report](#linear-regression-analysis-report)  
    - [Dataset Overview](#dataset-overview)  
    - [Key Formulas](#key-formulas)  
    - [Statistical Results](#statistical-results)  
    - [Code Implementation](#code-implementation)  
    - [Stepwise Regression](#stepwise-regression)
-8. [Logistic Regression Analysis Report](#logistic-regression)
-9. [Discriminant Analysis](#discriminant-analysis)
-10. [Lasso, Ridge and Elastic Net Regression](#lasso-ridge-elastic-net-regression)
+9. [Logistic Regression Analysis Report](#logistic-regression)
+10. [Discriminant Analysis](#discriminant-analysis)
+11. [Lasso, Ridge and Elastic Net Regression](#lasso-ridge-elastic-net-regression)
     - [Compare Results: Lasso, Ridge and Elastic Net Regression](#compare-results-lasso-ridge-elastic-net-regression)
-11. [Artificial Neural Networks – Gradient Descent](#artificial-neural-networks-gradient-descent)
+12. [Artificial Neural Networks – Gradient Descent](#artificial-neural-networks-gradient-descent)
     - [Build a Brain NVIDEA Course](build-a-brain-nvidea-course)
 
 <br><br>
@@ -344,7 +345,7 @@ Repeat the same steps for the variables n_filhos (column D) and idade (column F)
 
 <br>
 
-## II. [Range Standardization]()
+## [4.]() Range Standardization
 
 Steps for Range Standardization in Excel:
 
@@ -404,7 +405,7 @@ Both techniques were applied (given dataset)  to the [columns n_filhos](), [sala
 
 <br>
 
-## [Pearson Correlation]()
+## [5.]() Pearson Correlation
 
 **Pearson Correlation** is a statistical measure that describes the strength and direction of a linear relationship between two variables. The Pearson correlation value ranges from -1 to 1:
 
