@@ -26,8 +26,7 @@
 3. [Pratical Example for Calculating this Normalized Value in Excel](#pratical-example-Calculating-normalized-value-excel)
 4. [Range Standardization](#range-standardization)
 5. [Pearson Correlation](#pearson-correlation)  
-6. [Code Example (Python)](#code-example-python)  
-7. [Linear Regression: Price Prediction Case Study](#linear-regression-price-prediction-case-study-)  
+6. [Linear Regression: Price Prediction Case Study](#linear-regression-price-prediction-case-study-)  
    - [I. Use Case Implementation](#i-use-case-implementation)  
    - [Dataset Description](#dataset-description)  
    - [II. Methodology](#ii-methodology)  
@@ -417,7 +416,7 @@ For example, if we're analyzing the correlation between the area of a house and 
 
 <br>
 
-## I- [Simple Linear Regression]()
+## [6.]() Simple Linear Regression
 
 **Simple Linear Regression** is a statistical model that describes the relationship between a dependent variable (response) and an independent variable (predictor). The model is represented by the formula:
 
