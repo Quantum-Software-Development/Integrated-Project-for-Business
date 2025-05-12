@@ -934,7 +934,7 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-## V - [Lasso, Ridge and Ecolastic Net Regression](): Complete Overview with Definitions, Regularization Concepts, and Implementation Steps
+## [10.]() Lasso, Ridge and Ecolastic Net Regression: Complete Overview with Definitions, Regularization Concepts, and Implementation Steps
 
 <br>
 
@@ -1345,7 +1345,7 @@ plt.show()
 <br>
 
 
-## 10. - [Artificial Neural Networks – Gradient Descent - Build a Brain](): 
+## [11.]() - Artificial Neural Networks – Gradient Descent - Build a Brain
 
 This section provides a concise overview of the fundamental concepts behind Artificial Neural Networks (ANNs) and the Gradient Descent algorithm used for training them. It introduces key ideas such as the perceptron model, multilayer perceptrons (MLPs), error correction learning, and the backpropagation algorithm.
 
