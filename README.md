@@ -56,7 +56,7 @@
 <br><br>
 
 
-## [Part I]() - Linear Regression and Data Scaling Analysis
+# [I]() - Linear Regression and Data Scaling Analysis
 
 <br>
 
