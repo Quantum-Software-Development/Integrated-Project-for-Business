@@ -20,24 +20,6 @@
 <br><br><br>
 
 
-
-## [Part I]() - Linear Regression and Data Scaling Analysis
-
-<br>
-
-## Project Overview
-
-This project demonstrates a complete machine learning workflow for price prediction using:
-- **Stepwise Regression** for feature selection  
-- Advanced statistical analysis (ANOVA, R² metrics)  
-- Full model diagnostics  
-- Interactive visualization integration
-
-➢➣ [Get access](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/c751c1eb34ccfe30e451954c9a5ae5ea3f52e70d/Projects) to all the projects + dataset developed in this discipline.
-
-<br>
-
-
 # Table of Contents  
 1. [What is Data Normalization/Scaling?](#what-is-data-normalizationscaling)  
 2. [Common Scaling Methods](#common-scaling-methods)  
@@ -72,6 +54,24 @@ This project demonstrates a complete machine learning workflow for price predict
     - [Build a Brain NVIDEA Course](build-a-brain-nvidea-course)
 
 <br><br>
+
+
+## [Part I]() - Linear Regression and Data Scaling Analysis
+
+<br>
+
+## Project Overview
+
+This project demonstrates a complete machine learning workflow for price prediction using:
+- **Stepwise Regression** for feature selection  
+- Advanced statistical analysis (ANOVA, R² metrics)  
+- Full model diagnostics  
+- Interactive visualization integration
+
+➢➣ [Get access](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/c751c1eb34ccfe30e451954c9a5ae5ea3f52e70d/Projects) to all the projects + dataset developed in this discipline.
+
+<br>
+
 
 
 ## [Standardization of a Range of Values]()
