@@ -69,6 +69,7 @@ This project demonstrates a complete machine learning workflow for price predict
 10. [Lasso, Ridge and Elastic Net Regression](#lasso-ridge-elastic-net-regression)
     - [Compare Results: Lasso, Ridge and Elastic Net Regression](#compare-results-lasso-ridge-elastic-net-regression)
 11. [Artificial Neural Networks – Gradient Descent](#artificial-neural-networks-gradient-descent)
+    - [Build a Brain NVIDEA Course](build-a-brain-nvidea-course)
 
 <br><br>
 
