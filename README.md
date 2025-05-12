@@ -23,7 +23,7 @@
 # Table of Contents  
 1. [Linear Regression and Data Scaling Analysis - Normalization - Scaling](#linear-regressio-data-scalinganalysis-normalization-scaling)  
 2. [Practical Example for Calculating this Normalized Value in Python](#practical-example-calculating-normalized-value-python)  
-3. [Why is this Important in Machine Learning?](#why-is-this-important-in-machine-learning)  
+3. [Pratical Example for Calculating this Normalized Value in Excel](#pratical-example-Calculating-normalized-value-excel)  
 4. [Practical Example](#practical-example)  
 5. [Code Example (Python)](#code-example-python)  
 6. [Linear Regression: Price Prediction Case Study](#linear-regression-price-prediction-case-study-)  
@@ -74,7 +74,7 @@ This project demonstrates a complete machine learning workflow for price predict
 
 
 
-## [Standardization of a Range of Values]()
+#### [Standardization of a Range of Values]()
 
 It's describes the process of scaling or normalizing data within a specific range, typically to a standardized scale, for example, from 0 to 1. This is a common technique in data analysis and machine learning.
 
@@ -88,13 +88,13 @@ $$X_{normalized} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}$$
 
 <br>
 
-### <p align="center"> [Where]():
+#### <p align="center"> [Where]():
 
  $$X_{\max} - X_{\min} = \text{Amplitude}$$ 
 
  <br>
 
-###  <p align="center"> Is the `amplitude`, a way to represent the range of data values before normalization.
+####  <p align="center"> Is the `amplitude`, a way to represent the range of data values before normalization.
 
 <br>
 
@@ -107,7 +107,7 @@ To calculate the standardization of the variables salario, n_filhos, and idade u
 
 Compute the mean, standard deviation, maximum, and minimum for each of the variables (n_filhos, salario, idade).
 
-#### [Z-Score Standardization]():
+### [Z-Score Standardization]():
 
 We standardize the variables using the Z-Score method, which is computed as:
 
@@ -285,7 +285,7 @@ after_range_stats
 
 <br>
 
-## Pratical Example for Calculating this Normalized Value in [Excel]() 
+## [3.]()  Pratical Example for Calculating this Normalized Value in [Excel
 
 #### Use this [dataset](https://github.com/Quantum-Software-Development/Integrated_Project-Business/blob/f2d7abe6ee5853ae29c750170a01e429334f6fe5/HomeWork/1-Z-Score-Range/cadastro_funcionarios.xlsx)
 
@@ -293,11 +293,11 @@ To standardize the variables (salary, number of children, and age) in Excel usin
 
  <br>
 
-## I. [Z-Score Standardization]()
+### I. [Z-Score Standardization]()
 
 ### Steps for Z-Score in Excel:
 
-#### 1. [Find the Mean (µ)]():
+##### 1. [Find the Mean (µ)]():
 
 Use the AVERAGE function to calculate the mean of the column. For example, to find the mean of the salary (column E), use:
 
