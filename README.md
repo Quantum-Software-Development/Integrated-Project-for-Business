@@ -1344,6 +1344,13 @@ plt.show()
 <br>
 
 
+## VII - [Artificial Neural Networks – Gradient Descent](): 
+
+This section provides a concise overview of the fundamental concepts behind Artificial Neural Networks (ANNs) and the Gradient Descent algorithm used for training them. It introduces key ideas such as the perceptron model, multilayer perceptrons (MLPs), error correction learning, and the backpropagation algorithm.
+
+For a complete and detailed explanation, including all theoretical background, mathematical derivations, and implementation code, please refer to the dedicated repository [**Artificial Neural Networks – Gradient Descent**](), which contains the full content and examples.
+
+This summary is part of a larger collection of topics related to neural networks and machine learning, designed to provide both conceptual understanding and practical tools.
 
 
 
