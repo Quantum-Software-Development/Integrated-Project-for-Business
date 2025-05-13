@@ -56,11 +56,11 @@
 <br><br>
 
 
-# [1.]() - LLinear Regression and Data Scaling Analysis - Normalization - Scaling
+# [1.]() - Linear Regression and Data Scaling Analysis - Normalization - Scaling
 
 <br>
 
-## Project Overview
+### [Project Overview]()
 
 This project demonstrates a complete machine learning workflow for price prediction using:
 - **Stepwise Regression** for feature selection  
