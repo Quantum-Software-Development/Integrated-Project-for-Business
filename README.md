@@ -1353,7 +1353,7 @@ plt.show()
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/86fa3289a6e57c991e29c77e7bbbe63b7b74dc2b/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/Descendent%20Gradient.pdf) to access Theoretical and Pratical Material.
 
-#### [Click here]() to access the Dataset
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/ab8c90b8685fa6e3b0ce0aba6df8c07eaa960930/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/Regresao_Lasso_Ridge.xlsx) to access the Dataset
 
 #### [Click here]() the code implementations for [Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/95466df92a8411959dcf8cff8abba2e84d35ab94/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/1-Gradient_Descendin.ipynb) and [Stochastic Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/37e25f4452b0b43dc3e47c418616920c185b1f38/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/2-Gradient_Descending_Stochastic.ipynb)
 
