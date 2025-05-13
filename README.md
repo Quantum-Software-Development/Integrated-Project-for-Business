@@ -1351,7 +1351,7 @@ plt.show()
 
 <br>
 
-#### [Click here]() to access Theoretical and Pratical Material.
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/86fa3289a6e57c991e29c77e7bbbe63b7b74dc2b/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/Descendent%20Gradient.pdf) to access Theoretical and Pratical Material.
 
 #### [Click here]() to access the Dataset
 
