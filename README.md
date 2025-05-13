@@ -1355,7 +1355,7 @@ plt.show()
 
 #### [Click here]() to access the Dataset
 
-#### [Click here]() the code implementations for [Gradient Descent]() and [Stochastic Gradient Descent]()
+#### [Click here]() the code implementations for [Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/95466df92a8411959dcf8cff8abba2e84d35ab94/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/1-Gradient_Descendin.ipynb) and [Stochastic Gradient Descent]()
 
 
 
