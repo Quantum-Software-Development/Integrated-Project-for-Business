@@ -1347,7 +1347,7 @@ plt.show()
 <br>
 
 
-## [11.]() - Artificial Neural Networks – Gradient Descent - Build a Brain
+## [11.]() - Brains Made of Code: Regression Training with Gradient Descent and Stochastic Optimization Algorithms
 
 This section provides a concise overview of the fundamental concepts behind Artificial Neural Networks (ANNs) and the Gradient Descent algorithm used for training them. It introduces key ideas such as the perceptron model, multilayer perceptrons (MLPs), error correction learning, and the backpropagation algorithm.
 
