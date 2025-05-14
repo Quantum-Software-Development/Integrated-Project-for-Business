@@ -1355,9 +1355,9 @@ plt.show()
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/ab8c90b8685fa6e3b0ce0aba6df8c07eaa960930/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/Regresao_Lasso_Ridge.xlsx) to access the Dataset
 
-#### [Click here]() the code implementations for [Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/95466df92a8411959dcf8cff8abba2e84d35ab94/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/1-Gradient_Descendin.ipynb) and [Stochastic Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/37e25f4452b0b43dc3e47c418616920c185b1f38/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/2-Gradient_Descending_Stochastic.ipynb)
+#### [Click here]() to access the code implementations for [Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/95466df92a8411959dcf8cff8abba2e84d35ab94/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/1-Gradient_Descendin.ipynb) and [Stochastic Gradient Descent](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/37e25f4452b0b43dc3e47c418616920c185b1f38/class__10-Decreasing%20Gradient-Buildin%20a%20Brain/2-Gradient_Descending_Stochastic.ipynb)
 
-
+#### [Click here]() to access the complete project for building a linear regression model using Batch Gradient Descent and Stochastic Gradient Descent, including [full code](), [dataset](), and visualization [plots]().
 
 <br>
 
@@ -1365,7 +1365,7 @@ This section provides a concise overview of the fundamental concepts behind Arti
 
 For a complete and detailed explanation, including all theoretical background, mathematical derivations, and implementation code, please refer to the dedicated repository [**Brains Made of Code: Regression Training with Gradient Descent and Stochastic Optimization Algorithms**](), which contains the full content and examples.
 
-This summary is part of a larger collection of topics related to neural networks and machine learning, designed to provide both conceptual understanding and practical tools.
+This summary is part of a larger collection of topics related to neural tworks and machine learning, designed to provide both conceptual understanding and practical tools.
 
 
 
