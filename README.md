@@ -1384,7 +1384,7 @@ This summary is part of a larger collection of topics related to neural tworks a
 <br>
 
 
-### <p align="center">  [Extra Explanbation for Bayesian Regression by Professor Eric]()
+### <p align="center">  [Extra Explanbation for Bayesian Regression by Professor Eric](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/5df1f141ae2fa8a06b38704b9311db5eba84f1a4/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Bayesian%20and%20%20KK%20Regression%20Workbook.pdf)
 
 https://github.com/user-attachments/assets/f806fe77-acd8-4c4e-a2af-44ea32d7c155
 
