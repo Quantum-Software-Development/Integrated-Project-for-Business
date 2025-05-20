@@ -1371,8 +1371,20 @@ This summary is part of a larger collection of topics related to neural tworks a
 
 <br>
 
-## [12.]() - 
+## [12.]() - Bayesian- KNN Regression - Model Persistence
 
+<br>
+
+#### [Click here]() to access Theoretical and Pratical Material.
+
+#### [Click here]() to access the Dataset
+
+#### [Click here]() and access Bayesian - KNN Regression and  Regreesion and  Model Persistence Codes
+
+<br>
+
+
+### Extra Explanbation for Bayesian Regression by Professor Erick
 
 https://github.com/user-attachments/assets/f806fe77-acd8-4c4e-a2af-44ea32d7c155
 
