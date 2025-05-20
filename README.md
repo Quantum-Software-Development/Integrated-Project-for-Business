@@ -1379,13 +1379,16 @@ This summary is part of a larger collection of topics related to neural tworks a
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/3628cc01aa37e3e805352bed917f95d83685237e/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Consumo.xlsx) to access the Dataset
 
-#### [Click here]() and access Bayesian  Regreesion Codes
+#### [Click here]() and access Bayesian  Regreesion Code
 
-#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d806a426ad8506ff752152ff7e198a49325b6bbb/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/KNN%20Regression.ipynb) and access KNN  Regreesion  Codes
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d806a426ad8506ff752152ff7e198a49325b6bbb/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/KNN%20Regression.ipynb) and access KNN  Regreesion  Code
 
-#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d806a426ad8506ff752152ff7e198a49325b6bbb/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Persistence.ipynb) and access Persistence
 
-#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/d52ff5f2d3b95933d0630d4ae65e7b6d6866aa3c/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Saved%20Persistece%20Model)
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d52ff5f2d3b95933d0630d4ae65e7b6d6866aa3c/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/modelo_knn.joblib) and access Model-kNN.joblib
+
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d806a426ad8506ff752152ff7e198a49325b6bbb/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Persistence.ipynb) and access Persistence Code
+
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/d52ff5f2d3b95933d0630d4ae65e7b6d6866aa3c/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Saved%20Persistece%20Model) Model Persistence Code
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/d52ff5f2d3b95933d0630d4ae65e7b6d6866aa3c/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Saved%20Persistece%20Model) and access Saved Persistece Model
 
