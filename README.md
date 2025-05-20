@@ -1384,7 +1384,7 @@ This summary is part of a larger collection of topics related to neural tworks a
 <br>
 
 
-### Extra Explanbation for Bayesian Regression by Professor Erick
+### <p align="center">  [Extra Explanbation for Bayesian Regression by Professor Eric]()
 
 https://github.com/user-attachments/assets/f806fe77-acd8-4c4e-a2af-44ea32d7c155
 
