@@ -1379,7 +1379,7 @@ This summary is part of a larger collection of topics related to neural tworks a
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/3628cc01aa37e3e805352bed917f95d83685237e/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Consumo.xlsx) to access the Dataset
 
-#### [Click here]() and access Bayesian  Regreesion Code
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/df27891910b5dbbd3ccec122008eec2911f0caaf/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Bayesian_Regression.ipynb) and access Bayesian  Regreesion Code
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d806a426ad8506ff752152ff7e198a49325b6bbb/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/KNN%20Regression.ipynb) and access KNN  Regreesion  Code
 
