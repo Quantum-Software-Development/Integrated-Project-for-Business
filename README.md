@@ -1375,20 +1375,14 @@ This summary is part of a larger collection of topics related to neural tworks a
 
 <br>
 
-#### [Click here]() to access Theoretical and Pratical Material (https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/5df1f141ae2fa8a06b38704b9311db5eba84f1a4/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Bayesian%20and%20%20KK%20Regression%20Workbook.pdf)
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/6a5f8e834ed354acb0a40b63eadd52e477efb24f/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset) to access Theoretical and Pratical Material 
 
 #### [Click here]() to access the Dataset
 
 #### [Click here]() and access Bayesian - KNN Regression and  Regreesion and  Model Persistence Codes
 
-<br>
-
 
 ### <p align="center">  Extra Explanbation for Bayesian Regression by [Professor Eric](https://www.linkedin.com/in/eric-bacconi-423137/)
-
-
-
-
 
 https://github.com/user-attachments/assets/f806fe77-acd8-4c4e-a2af-44ea32d7c155
 
