@@ -1381,6 +1381,8 @@ This summary is part of a larger collection of topics related to neural tworks a
 
 #### [Click here]() and access Bayesian - KNN Regression and  Regreesion and  Model Persistence Codes
 
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/d52ff5f2d3b95933d0630d4ae65e7b6d6866aa3c/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Saved%20Persistece%20Model) and access Saved Persistece Model
+
 <br>
 
 ### <p align="center">  Extra Explanbation for Bayesian Regression by [Professor Eric](https://www.linkedin.com/in/eric-bacconi-423137/)
