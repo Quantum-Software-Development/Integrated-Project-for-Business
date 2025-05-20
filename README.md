@@ -1368,6 +1368,12 @@ For a complete and detailed explanation, including all theoretical background, m
 This summary is part of a larger collection of topics related to neural tworks and machine learning, designed to provide both conceptual understanding and practical tools.
 
 
+<br>
+
+## [12.]() - 
+
+
+https://github.com/user-attachments/assets/f806fe77-acd8-4c4e-a2af-44ea32d7c155
 
 
 
