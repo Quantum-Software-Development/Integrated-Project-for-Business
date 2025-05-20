@@ -934,7 +934,11 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 #### [Click here](https://github.com/FabianaCampanari/Iris-DataAnalysis-Seaborn-) and acess Iris Repository
 
+<br>
 
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/5dfd47488997c5202bcd6fc1f2a902c22e6e1f49/Projects/project_5-Discriminant%20Analyze) and access Project_5 - Discriminant Analyzes as demonstrated in the video below
+
+https://github.com/user-attachments/assets/e6171b30-b1bf-4dd1-aa90-e5bcac38f991
 
 <br>
 
