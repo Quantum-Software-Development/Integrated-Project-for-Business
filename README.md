@@ -936,10 +936,10 @@ By removing the variable `Gmdireta` (which had a p-value greater than 0.05), the
 
 <br>
 
-#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/5dfd47488997c5202bcd6fc1f2a902c22e6e1f49/Projects/project_5-Discriminant%20Analyze) and access Project_5 - Discriminant Analyzes as demonstrated in the video below
+#### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/tree/5dfd47488997c5202bcd6fc1f2a902c22e6e1f49/Projects/project_5-Discr[iminant%20Analyze) and access Project_5 - Discriminant Analyzes as demonstrated in the video below
 
 
-https://github.com/user-attachments/assets/20819665-3a36-4e11-9431-bce9b7ae998e
+https://github.com/user-attachments/assets/20819665-3a36-4e11-9431-bce9b7ae998e](https://github.com/user-attachments/assets/e1757373-b9a7-4051-afb8-63855576f1b2)
 
 
 <br>
