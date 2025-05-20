@@ -1373,7 +1373,6 @@ This summary is part of a larger collection of topics related to neural tworks a
 
 ## [12.]() - Bayesian- KNN Regression - Model Persistence
 
-<br>
 
 #### [Click here](https://github.com/Quantum-Software-Development/Integrated-Project-for-Business/blob/d806a426ad8506ff752152ff7e198a49325b6bbb/class__12-%20Bayesian-KNN%20Regression-Model%20Persistence/dataset/Bayesian%20and%20%20KK%20Regression%20Workbook.pdf) to access Theoretical Material 
 
