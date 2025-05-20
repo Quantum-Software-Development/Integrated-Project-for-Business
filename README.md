@@ -53,6 +53,7 @@
 11. [Brains Made of Code: Regression Training with Gradient Descent and Stochastic Optimization Algorithms](#brains-made-code-regression-training-gradient-descent-stochastic-optimization-algorithms)
     - [Build a Brain NVIDEA](build-a-brain-nvidea)
 12. [Bayesian- KNN Regression - Model Persistence](#bayesian-knn-regression-model-Persistence)
+13. [Projects]()
 
 <br><br>
 
