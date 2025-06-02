@@ -1,6 +1,8 @@
 
 ## Projeto Laguna (Smart City Laguna) – Fortaleza: Planet Smart City e Proptech + ONU + PUCSP
 
+Pedro telef: 11 991604997- CEO Proptech
+
 **Smart City Laguna** é um projeto inovador de cidade inteligente desenvolvido pela proptech ítalo-britânica Planet Smart City, situada em São Gonçalo do Amarante, a cerca de 55 km de Fortaleza, Ceará. Este empreendimento é reconhecido como a primeira cidade inteligente inclusiva do mundo, com foco em moradia acessível, sustentabilidade e soluções tecnológicas para a população de baixa e média renda[^1][^4][^5].
 
 ### Principais Características do Projeto
