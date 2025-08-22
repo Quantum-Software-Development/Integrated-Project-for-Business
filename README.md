@@ -17,7 +17,35 @@
 
 ### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
 
+
+
+
+
+<!--Confidentiality statement -->
+
+<br><br>
+
+# 
+
+
+### ⚠️ Heads Up
+
+
+- [Whenever possible](), projects and deliverables developed during the course will be made [publicly accessible]().
+
+- The course emphasizes [**practical, hands-on experience**]() with real datasets to emulate professional consulting scenarios in the field of Data Mining.
+
+- All activities and materials will strictly adhere to the [**academic and ethical guidelines of PUC-SP**](). Any content not authorized for public disclosure will remain [**confidential**]() and stored in [private repositories]().
+
+
+# 
+
 <br><br><br>
+
+
+<!--END-->
+
+
 
 
 # Table of Contents  
