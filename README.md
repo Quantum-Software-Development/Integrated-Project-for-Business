@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h1 style="font-size:2.5em;">🌟 Integrated Business Project – 3rd Semester at PUC-SP: Bachelor's in Humanistic AI & Data Science</h1>
+  <h2 style="font-size:2.5em;">🌟 Integrated Business Project – 3rd Semester at PUC-SP: Bachelor's in Humanistic AI & Data Science</h1>
   <h3 style="font-size:0.9em;">
     Under the guidance of <a href="https://www.linkedin.com/in/eric-bacconi-423137/" target="_blank" style="color:inherit; text-decoration:underline;">Professor Dr. Eric Bacconi</a>, Coordinator of the Bachelor's Program in Humanistic AI & Data Science at PUC-SP.
   </h3>
