@@ -11,7 +11,7 @@
 
 <br><br><br>
 
-<h2 align="center">  $$\Huge {\textbf{\color{DodgerBlue} GOOD DECISIONS = GOOD RESULTS}}$$ 
+<h2 align="center">  $$\Large {\textbf{\color{DodgerBlue} GOOD DECISIONS = GOOD RESULTS}}$$ 
 
 <br><br><br>
 
